@@ -10,5 +10,5 @@
  Authorization: Bearer >Token(paste the token)< and hit enter 
  
  # Note: 
- if you want to load initial data using data.sql and also h2database as database 
- add this line in spring.jpa.defer-datasource-initialization=true in application.properties file
+ if you want to load initial data using data.sql and also to use h2database as database 
+ add this line spring.jpa.defer-datasource-initialization=true in application.properties file
